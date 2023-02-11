@@ -782,7 +782,7 @@ int doBattle(int desu1, int desu2) {
 		else if (offense2[3] <= -4) offense2[3] = -3;
 
 		cout << "Plyr 1: " << playa1 << "\t"; healthBar(charaSaveA[4], offense1[0]); cout << " [ B: " << offense1[3] << " ]" << endl;
-		cout << "Plyr 2: " << playa2 << "\t"; healthBar(charaSaveB[4], offense2[0]); cout << " [ B: " << offense1[3] << " ]" << endl;
+		cout << "Plyr 2: " << playa2 << "\t"; healthBar(charaSaveB[4], offense2[0]); cout << " [ B: " << offense2[3] << " ]" << endl;
 
 		playerFight(playa1, playa2, 0, offense1[1], offense1[3], offense2[0], offense2[2], hyperA);
 
